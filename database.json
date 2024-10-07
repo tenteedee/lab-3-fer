@@ -1,0 +1,65 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2020
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2019
+    },
+    {
+      "id": 3,
+      "make": "Ford",
+      "model": "Focus",
+      "year": 2018
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "type": "Oil Change",
+      "cost": 30,
+      "vehicleId": 1,
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "type": "Tire Rotation",
+      "cost": 20,
+      "vehicleId": 1,
+      "status": "uncompleted"
+    },
+    {
+      "type": "Brake Inspection",
+      "cost": "50",
+      "status": "completed",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "type": "Battery Check",
+      "cost": 25,
+      "vehicleId": 2,
+      "status": "uncompleted"
+    },
+    {
+      "id": 5,
+      "type": "Engine Tune-up",
+      "cost": 100,
+      "vehicleId": 3,
+      "status": "completed"
+    },
+    {
+      "id": 6,
+      "type": "Transmission Fluid Change",
+      "cost": 60,
+      "vehicleId": 3,
+      "status": "uncompleted"
+    }
+  ]
+}
